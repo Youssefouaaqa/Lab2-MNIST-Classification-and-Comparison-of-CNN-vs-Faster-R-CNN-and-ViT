@@ -64,5 +64,5 @@ Since their introduction by Dosovitskiy et al. in 2020, Vision Transformers (ViT
    - F1 Score: The CNN model also has a high F1 score (0.9924), indicating strong precision and recall. No F1 score data is available for Faster R-CNN and ViT.
    - Loss: CNN has a much lower loss (0.0198) compared to Faster R-CNN (1.543) and ViT (1.70), suggesting better performance in terms of minimizing error during training.
    - Training Time: CNN is the fastest to train, taking only 141.10 seconds. Faster R-CNN, being more complex due to its object detection capabilities, takes over an hour, while ViT has a relatively faster training time of 30 minutes.
-   - 
+
 In summary, CNN excels in accuracy, loss, and training time, while Faster R-CNN is more complex with longer training times, and ViT offers faster training but at a cost of lower accuracy.
