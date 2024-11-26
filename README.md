@@ -31,12 +31,12 @@ The main objective of this lab is to become familiar with the PyTorch library an
 
   ## Metrics for Comparison
 
-| Metric           | CNN                          | Faster R-CNN                  |
+| Metric            | CNN                          | Faster R-CNN                   |
 |-------------------|------------------------------|--------------------------------|
-| **Accuracy**      | To be filled after training  | To be filled after training    |
-| **F1 Score**      | To be filled after training  | To be filled after training    |
-| **Loss**          | To be filled after training  | To be filled after training    |
-| **Training Time** | To be filled after training  | To be filled after training    |
+| **Accuracy**      | 99.24%                       | To be filled after training    |
+| **F1 Score**      | 0.9924                       | To be filled after training    |
+| **Loss**          | 0.0198                       | To be filled after training    |
+| **Training Time** | 141.10 seconds               | To be filled after training    |
 
 ---
 
@@ -59,3 +59,10 @@ Since their introduction by Dosovitskiy et al. in 2020, Vision Transformers (ViT
    - Apply the model for the classification task on the MNIST dataset.
 
 2. **Interpret and Compare Results:**
+   **Key Insights**:
+   - Accuracy: CNN achieves the highest accuracy (99.24%), significantly outperforming both Faster R-CNN and ViT (76.07%).
+   - F1 Score: The CNN model also has a high F1 score (0.9924), indicating strong precision and recall. No F1 score data is available for Faster R-CNN and ViT.
+   - Loss: CNN has a much lower loss (0.0198) compared to Faster R-CNN (1.543) and ViT (1.70), suggesting better performance in terms of minimizing error during training.
+   - Training Time: CNN is the fastest to train, taking only 141.10 seconds. Faster R-CNN, being more complex due to its object detection capabilities, takes over an hour, while ViT has a relatively faster training time of 30 minutes.
+   - 
+In summary, CNN excels in accuracy, loss, and training time, while Faster R-CNN is more complex with longer training times, and ViT offers faster training but at a cost of lower accuracy.
