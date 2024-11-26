@@ -59,7 +59,6 @@ Since their introduction by Dosovitskiy et al. in 2020, Vision Transformers (ViT
    - Apply the model for the classification task on the MNIST dataset.
 
 2. **Interpret and Compare Results:**
-      **Key Insights**:
    - Accuracy: CNN achieves the highest accuracy (99.24%), significantly outperforming both Faster R-CNN and ViT (76.07%).
    - F1 Score: The CNN model also has a high F1 score (0.9924), indicating strong precision and recall. No F1 score data is available for Faster R-CNN and ViT.
    - Loss: CNN has a much lower loss (0.0198) compared to Faster R-CNN (1.543) and ViT (1.70), suggesting better performance in terms of minimizing error during training.
