@@ -33,18 +33,17 @@ The main objective of this lab is to become familiar with the PyTorch library an
 
 | Metric            | CNN                          | Faster R-CNN                   |
 |-------------------|------------------------------|--------------------------------|
-| **Accuracy**      | 99.24%                       | To be filled after training    |
-| **F1 Score**      | 0.9924                       | To be filled after training    |
-| **Loss**          | 0.0198                       | To be filled after training    |
-| **Training Time** | 141.10 seconds               | To be filled after training    |
+| **Accuracy**      | 99.24%                       |                --              |
+| **F1 Score**      | 0.9924                       |                --              |
+| **Loss**          | 0.0198                       |                --              |
+| **Training Time** | 141.10 seconds               |              over 1h           |
 
 ---
 
 4. **Fine-Tuning with Pretrained Models:**
-   - Fine-tune the CNN and Faster R-CNN models using pretrained models like VGG16 and AlexNet on the MNIST dataset.
-   - Compare the results of the fine-tuned models with the original CNN and Faster R-CNN models.
-   - Discuss the conclusions based on the comparison.
-  
+   - CNN is the most efficient and effective model for the MNIST dataset, with superior performance across all metrics (Accuracy, F1 Score, Loss).
+   - AlexNet and VGG16 are pretrained models that have shown poor performance on the MNIST dataset. These models, designed for more complex image classification tasks, struggle with the simpler task of digit recognition, likely due to their deeper architectures that require more data and computational resources.
+  - For smaller datasets like MNIST, a simple CNN architecture is more effective than larger, pretrained models like AlexNet and VGG16.
 
 ### Part 2: Vision Transformer (ViT)
 
